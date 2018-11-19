@@ -1,0 +1,35 @@
+<% include partials/header %>
+<h1 class="ui huge header centered">
+  Check us out!
+  <div class="sub header">Watch the Dreamy Creamery Ice Cream Dream Team in action!</div>
+</h1>
+<div class="ui container">
+  <div class="ui video">
+    <video width="1125" height="600" autoplay loop>
+      <source src="../images/scoop.mp4" type="video/mp4">
+
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <h2 class="ui header centered">
+    Contact Us!
+    <div class="sub header">We love getting feedback!  We also love responding within one business day!</div>
+  </h2>
+  <form class="" action="/contact" method="GET">
+    <div class="ui form">
+      <div class="ui input focus">
+        <input type="text" placeholder="Name" required>
+      </div>
+      <div class="ui input focus">
+        <input type="email" placeholder="email" required>
+      </div>
+      <div class="field">
+        <label>Questions?  Comments?  Concerns?  Want to join the team?  Let us know what makes you tick!</label>
+        <textarea rows="2"></textarea>
+        <input class="ui button huge" type="submit" name="" value="Submit!">
+      </div>
+    </div>
+  </form>
+</div>
+
+<% include partials/footer %>
