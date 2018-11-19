@@ -20,6 +20,6 @@ app.get("/contact", (req, res) => {
 });
 
 //Server
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
 	console.log("Personal Site v3 is Running");
 });
